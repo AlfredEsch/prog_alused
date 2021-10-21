@@ -4,6 +4,6 @@ tegelik_kiirus = int(input("sisestage tegelik kiirus (km/h) : "))
 ületatud_kiirus = (tegelik_kiirus - lubatud_kiirus)
 trahv = ületatud_kiirus * 3
 tegelik_trahv = min(190,trahv)
-kesk = " kiiruse ületamise eest on teie trahv " + str(tegelik_trahv)
+kesk = " kiiruse ületamise eest on sinu trahv " + str(tegelik_trahv)
 lause = str(nimi) + kesk + " eurot" 
 print(lause)
