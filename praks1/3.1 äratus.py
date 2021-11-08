@@ -1,5 +1,5 @@
 äratus = int(input("Sisestage mitu korda äratada: "))
-i = 0
-while i < äratus:
+
+while äratus > 0 :
     print("tõuse ja sära!")
-    i += 1
+    äratus = äratus - 1
